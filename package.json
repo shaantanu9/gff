@@ -1,10 +1,10 @@
 {
-  "name": "gff",
-  "version": "1.0.0",
+  "name": "gf2",
+  "version": "0.0.1",
   "description": "A simple CLI tool for downloading specific folders from GitHub repositories.",
   "main": "src/index.ts",
   "bin": {
-    "gff": "src/index.ts"
+    "gf2": "dist/index.js"
   },
   "keywords": [
     "GitHub",
