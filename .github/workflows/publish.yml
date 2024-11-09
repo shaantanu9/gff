@@ -25,14 +25,6 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-
-      # - name: Run tests (optional)
-      #   run: |
-      #     npm test
-
-      # - name: Bump minor version
-      #   run: |
-      #     npm version patch  # Always bumps the minor version
           
       - name: Publish to NPM
         run: |
