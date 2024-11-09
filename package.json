@@ -1,6 +1,6 @@
 {
   "name": "gf2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple CLI tool for downloading specific folders from GitHub repositories.",
   "main": "src/index.ts",
   "bin": {
