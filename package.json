@@ -1,0 +1,45 @@
+{
+  "name": "gff",
+  "version": "1.0.0",
+  "description": "A simple CLI tool for downloading specific folders from GitHub repositories.",
+  "main": "src/index.ts",
+  "bin": {
+    "gff": "src/index.ts"
+  },
+  "keywords": [
+    "GitHub",
+    "CLI",
+    "download-folder",
+    "giget",
+    "command-line-tool",
+    "typescript",
+    "gff"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaantanu9/gff.git"
+  },
+  "homepage": "https://github.com/shaantanu9/gff#readme",
+  "author": {
+    "name": "Shantanu Bhat",
+    "email": "shantanubombatkar2@gmail.com",
+    "url": "https://www.linkedin.com/in/shantanu-bombatkar/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "giget": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.x",
+    "ts-node": "^10.x",
+    "@types/node": "^14.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}
