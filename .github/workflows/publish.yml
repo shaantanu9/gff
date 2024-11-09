@@ -30,9 +30,9 @@ jobs:
       #   run: |
       #     npm test
 
-      - name: Bump minor version
-        run: |
-          npm version patch  # Always bumps the minor version
+      # - name: Bump minor version
+      #   run: |
+      #     npm version patch  # Always bumps the minor version
           
       - name: Publish to NPM
         run: |
