@@ -32,11 +32,6 @@
   "dependencies": {
     "giget": "^1.0.0"
   },
-  "devDependencies": {
-    "typescript": "^4.x",
-    "ts-node": "^10.x",
-    "@types/node": "^14.x"
-  },
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
