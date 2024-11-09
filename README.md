@@ -7,6 +7,7 @@
 - **Download specific folders** from any public GitHub repository.
 - **Simple CLI interface** that can be used directly via `npx`.
 - **Lightweight**: Only fetches the folder you need, making it fast and efficient.
+- **Supports GitHub Enterprise**: Fetch folders from GitHub Enterprise repositories.
 
 ## Installation
 
